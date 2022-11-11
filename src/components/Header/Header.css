@@ -1,0 +1,32 @@
+.navBar{
+    background-color: rgb(212, 234, 243);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin: 10px 20px;
+    padding: 20px;
+}
+
+.link{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-li{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    padding: 4px;
+}
+
+.link-li:hover{
+    background-color: orange;
+}
+
+.active-link{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    padding: 4px;
+    background-color: orange;
+}
